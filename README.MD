@@ -19,4 +19,12 @@
 - Almacen puede ingresar Materia prima relacionada con guia de remision
 - Jefe de produccion puede ingresar Producto terminado al Pedido, para un control de producto avanzado
 - Cualquier usuario puede ingresar merma, especificando tipo de producto, color, en general
+- Existen productos que tienen dentro diferentes tipos de materia prima por lo que se creara una tabla intermedia
+- Se creara espacios (Almacen Materia Prima, Produccion, Merma, Almacen Producto Terminado, Entrega, Utilizable)
+- Estado de pedido( Activo, En proceso, Suspendido, Finalizado)
+- Se creo muchas entidades en el modelo logico, procederemos a crear la base de datos en MySQL workbench
+- Imagen de modelo logico 30/07/2025
+
+![Imagen Alt](modelo-logico/modelologico.png)
+
 **Se agregara mas requerimientos y reglas de negocio mientras se avanza el proyecto**
